@@ -55,19 +55,18 @@ const HeroSection = () => {
                 src={heroImage}
                 alt="Professional with laptop"
                 className="img-fluid rounded"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "450px", position: "relative", zIndex: 1 }}
               />
             </div>
           </div>
         </div>
       </div>
 
-      {/* Decorative elements */}
       <div
         style={{
           position: "absolute",
-          width: "220px",
-          height: "220px",
+          width: "200px",
+          height: "200px",
           borderRadius: "50%",
           backgroundColor: "var(--coral)",
           top: 0,
