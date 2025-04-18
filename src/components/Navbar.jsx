@@ -4,7 +4,14 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
       <div className="container" style={{ maxWidth: "1240px" }}>
-        <a className="navbar-brand fw-bold text-primary" href="#">
+        <a
+          className="navbar-brand fw-bold"
+          href="#"
+          style={{
+            color: "var(--primary-blue)",
+            fontSize: "20px",
+          }}
+        >
           Software Recruitment co.
         </a>
 
@@ -18,7 +25,7 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav me-auto">
+          <ul className="navbar-nav me-auto ms-5">
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"

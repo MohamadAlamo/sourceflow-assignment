@@ -87,7 +87,7 @@ const JobsSection = () => {
                   <small
                     style={{
                       color:
-                        job.textColor === "white"
+                        job.textColor === "var(--light-text)"
                           ? "rgba(255, 255, 255, 0.8)"
                           : "rgba(6, 78, 164, 0.8)",
                       fontWeight: 300,
